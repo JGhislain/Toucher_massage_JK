@@ -18,7 +18,7 @@ const contactClass = document.querySelector(".contact")
 let openLightboxFormation = function() {
     formationClass.addEventListener("click", function(e) {
         e.preventDefault()
-        image.src = "/assets/Img/bonjour.gif"
+        image.src = "assets/Img/bonjour.gif"
         lightbox.classList.add("show")
     });
     closeLightbox()
@@ -31,7 +31,7 @@ let openLightboxFormation = function() {
 let openLightboxPartenaire = function() {
     partenaireClass.addEventListener("click", function(e) {
         e.preventDefault()
-        image.src = "/assets/Img/françoisPasEvident.gif"
+        image.src = "assets/Img/françoisPasEvident.gif"
         lightbox.classList.add("show")
     });
     closeLightbox()
@@ -44,7 +44,7 @@ let openLightboxPartenaire = function() {
 let openLightboxLegale = function() {
     legaleClass.addEventListener("click", function(e) {
         e.preventDefault()
-        image.src = "/assets/Img/francois-embrouille.gif"
+        image.src = "assets/Img/francois-embrouille.gif"
         lightbox.classList.add("show")
     });
     closeLightbox()
