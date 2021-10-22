@@ -88,6 +88,15 @@ main {
     border-top-right-radius: 80px;
     padding-bottom: 80px;
 }
+#presentation h3 {
+    width: 85%;
+    color: #99E2D0;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin: 20px auto auto auto;
+    background-color: #FFF;
+}
 .lightbox.show {
     display: initial;
 }

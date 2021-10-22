@@ -91,6 +91,15 @@ main {
 .lightbox.show {
     display: initial;
 }
+#presentation h3 {
+    width: 85%;
+    color: #99E2D0;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin: 20px auto auto auto;
+    background-color: #FFF;
+}
 .lightbox {
     display: none;
     position: fixed;
