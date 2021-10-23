@@ -47,10 +47,12 @@ h2 {
     border-radius: 150px;
 }
 .logo-titre {
-    width: 7vw;
+    display: flex;
+    width: 100px;
     position: absolute;
     background-color: transparent;
-    margin-left: -2.5vw;
+    margin-left: 520px;
+    top: 30px;
 }
 #nav-bar {
     width: 100%;
