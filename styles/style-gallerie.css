@@ -104,11 +104,14 @@ main {
     align-self: center;
     position: relative;
     height: 270px;
-    width: 27vw;
+    width: 26vw;
+}
+#gallerie:hover {
+    box-shadow: inset 10px 10px 20px 10px rgba(147,86,220,0.7);
 }
 .gallerie-img {
     object-fit: cover;
-    height: 180px;
+    height: 250px;
     width: 25vw;
     border-radius: 80px;
 }
