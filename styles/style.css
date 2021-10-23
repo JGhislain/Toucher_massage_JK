@@ -223,9 +223,10 @@ footer i {
 }
 .toucher {
     position: absolute;
-    right: 0;
     display: flex;
-    top: 110px;
+    margin-top: 70px;
+    margin-left: 58vw;
+    width: 33%;
     text-decoration: none;
 }
 .logo-toucher {
@@ -237,5 +238,24 @@ footer i {
     font-weight: bold;
 }
 .slogan-toucher:hover {
+    color: #99E2D0;
+}
+.parc {
+    position: absolute;
+    display: flex;
+    margin-top: 165px;
+    margin-left: 57vw;
+    width: 35%;
+    text-decoration: none;
+}
+.logo-parc {
+    width: 5vw;
+}
+.slogan-parc {
+    color: #9356DC;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.slogan-parc:hover {
     color: #99E2D0;
 }
