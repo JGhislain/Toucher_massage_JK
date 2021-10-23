@@ -74,6 +74,9 @@ h2 {
 #social-link {
     width: 3vw;
 }
+#social-link:hover {
+    box-shadow: 2px 2px 4px 2px #FF79DA;
+}
 main {
     margin: 0;
 }
