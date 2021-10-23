@@ -81,6 +81,11 @@ main {
     margin: 0;
 }
 #presentation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
     margin: 35px 0 0 0;
     background-color: #FFF;
     border: solid 1px white;
@@ -96,6 +101,55 @@ main {
     padding-top: 20px;
     margin: 20px auto auto auto;
     background-color: #FFF;
+}
+#prestation {
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #F6F6F6;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5vw;
+    align-self: center;
+    position: relative;
+    height: 270px;
+    width: 26vw;
+}
+#prestation a {
+    text-decoration: none;
+    background-color: transparent;
+}
+#prestation:hover {
+    box-shadow: inset 10px 10px 20px 10px rgba(147,86,220,0.7);
+}
+.prestation-img {
+    object-fit: cover;
+    height: 180px;
+    width: 24vw;
+    border-radius: 80px;
+}
+.prestation-titre {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color:#9356DC;
+    margin: 5px 40px 0px 40px;
+}
+.prestation-prix {
+    text-decoration: none;
+    color: #FF79DA;
+    margin: 0px 0px 0px 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+.coeur {
+    color: #9356DC;
+    margin: 10px 0 0 15vw;
+    font-size: 1.4rem;
+    background-color: transparent;
+}
+.coeur:hover {
+    font-weight: 900;
+    color: #FF79DA;
 }
 .lightbox.show {
     display: initial;
@@ -157,7 +211,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
 }
-h4 {
+footer h4 {
     width: 100%;
     font-size: 1.3rem;
     background: radial-gradient(circle, #FF79DA 20%, #9356DC 100%);
@@ -191,4 +245,22 @@ footer i {
 }
 .legale, .contact {
     margin-left: 4vw;
+}
+.toucher {
+    position: absolute;
+    right: 0;
+    display: flex;
+    top: 110px;
+    text-decoration: none;
+}
+.logo-toucher {
+    width: 4vw;
+}
+.slogan-toucher {
+    color: #9356DC;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.slogan-toucher:hover {
+    color: #99E2D0;
 }

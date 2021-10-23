@@ -157,7 +157,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
 }
-h4 {
+footer h4 {
     width: 100%;
     font-size: 1.3rem;
     background: radial-gradient(circle, #FF79DA 20%, #9356DC 100%);
@@ -191,4 +191,22 @@ footer i {
 }
 .legale, .contact {
     margin-left: 4vw;
+}
+.toucher {
+    position: absolute;
+    right: 0;
+    display: flex;
+    top: 110px;
+    text-decoration: none;
+}
+.logo-toucher {
+    width: 4vw;
+}
+.slogan-toucher {
+    color: #9356DC;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.slogan-toucher:hover {
+    color: #99E2D0;
 }
