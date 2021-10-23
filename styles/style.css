@@ -95,8 +95,8 @@ main {
 }
 #presentation h3 {
     width: 85%;
-    color: #99E2D0;
-    font-size: 2rem;
+    color: #9356DC;
+    font-size: 2.5rem;
     padding-bottom: 50px;
     padding-top: 20px;
     margin: 20px auto auto auto;
@@ -129,7 +129,7 @@ main {
 }
 #presentation a:hover {
     text-decoration: none;
-    color: #FF79DA;
+    color: #99E2D0;
 }
 .lightbox.show {
     display: initial;

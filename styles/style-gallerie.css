@@ -98,6 +98,15 @@ main {
     border-top-right-radius: 80px;
     padding-bottom: 80px;
 }
+#presentation h3 {
+    width: 85%;
+    color: #9356DC;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin: 20px auto auto auto;
+    background-color: #FFF;
+}
 #gallerie {
     display: flex;
     justify-content: center;
@@ -112,7 +121,7 @@ main {
     width: 26vw;
 }
 #gallerie:hover {
-    box-shadow: inset 10px 10px 20px 10px rgba(147,86,220,0.7);
+    box-shadow: inset 10px 10px 20px 10px rgba(153,226,208,0.7);
 }
 .gallerie-img {
     object-fit: cover;
@@ -120,17 +129,10 @@ main {
     width: 25vw;
     border-radius: 80px;
 }
-.lightbox.show {
+.lightbox.show,
+.lightbox__preview.show,
+.lightbox__next.show {
     display: initial;
-}
-#presentation h3 {
-    width: 85%;
-    color: #99E2D0;
-    font-size: 2rem;
-    padding-bottom: 50px;
-    padding-top: 20px;
-    margin: 20px auto auto auto;
-    background-color: #FFF;
 }
 .lightbox {
     display: none;
@@ -144,21 +146,57 @@ main {
     overflow: auto;
     animation: lightboxIn 500ms;
 }
-.lightbox__close {
+.lightbox__next {
+    display: none;
     border: none;
     font-size: 55px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0%;
+    margin-top: 80px;
+    transition: opacity 300ms;
+    opacity: 0.5;
+    cursor: pointer;
+    color: #9356DC;
+    background-color: #99E2D0;
+}
+.lightbox__preview {
+    display: none;
+    border: none;
+    font-size: 55px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+    margin-top: 80px;
+    opacity: 0.5;
+    transition: opacity 300ms;
+    cursor: pointer;
+    color: #9356DC;
+    background-color: #99E2D0;
+}
+.lightbox__close {
+    border: none;
+    font-size: 65px;
     height: auto;
     position: fixed;
     top: 0px;
-    right: 50px;
-    margin-top: 20px;
+    right: 57px;
     opacity: 0.5;
     cursor: pointer;
     transition: opacity 300ms;
     z-index: 11;
+    color: #9356DC;
+    background-color: #99E2D0;
 }
+.lightbox__preview:hover,
+.lightbox__next:hover,
 .lightbox__close:hover {
     opacity: 1;
+}
+.lightbox i {
+    background-color: #99E2D0;
 }
 .contain-img {
     max-width: 100%;
