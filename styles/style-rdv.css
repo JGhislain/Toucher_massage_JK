@@ -81,6 +81,11 @@ main {
     margin: 0;
 }
 #presentation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
     margin: 35px 0 0 0;
     background-color: #FFF;
     border: solid 1px white;
